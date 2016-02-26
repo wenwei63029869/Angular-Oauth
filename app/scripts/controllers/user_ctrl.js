@@ -5,6 +5,7 @@ angular.module('angularOauthApp')
     console.log(n ++)
     console.log('home');
     console.log("update")
+    console.log("again update")
     console.log("hit the route")
     console.log(!localStorage.getItem("satellizer_token"))
     $scope.user = User.user
